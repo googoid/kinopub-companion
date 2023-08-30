@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Kino.pub Companion",
+  "version": "1.0",
+  "description": "Parse Kino.pub playlists and download videos.",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://kino.pub/*"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "kinopub-companion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "m3u8-parser": "^7.1.0",
+    "node-hls-downloader": "^2.2.0",
+    "request": "^2.88.2"
+  }
+}
